@@ -1,0 +1,86 @@
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Main Menu */
+.main-menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+/* Menu Items */
+.nav-item {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+/* Active Menu Item */
+.nav-item .active {
+  border-bottom: 2px solid #333;
+}
+
+/* Cart Badge */
+.ant-badge-count {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 0.5rem;
+}
+
+/* Dropdown Menu Items */
+.dropdown-item {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Search Form */
+.search-form {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.search-form input {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Login/Register Buttons */
+.nav-item .nav-link.btn {
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}

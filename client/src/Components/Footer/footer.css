@@ -1,0 +1,39 @@
+.footer {
+  background: #f7f7f7;
+  padding: 50px 0;
+}
+.footer .footer-menu {
+  margin-top: 30px;
+}
+.footer .footer-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.footer .footer-menu li a {
+  color: #333;
+  font-size: 12px;
+  text-decoration: none;
+}
+.social-icons {
+  color: #333;
+  font-size: 18px;
+}
+.footer .copyright-text {
+  margin-top: 20px;
+}
+
+.copyright-text a {
+  color: #000;
+}
+
+.social-media li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.social-media li a {
+  padding: 8px 10px;
+}
+.social-media li a i {
+  font-size: 20px;
+  color: #555;
+}
